@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         HLOJ
 // @namespace    http://10.10.22.16/
+// @icon         https://img.imgdb.cn/item/608a4ccdd1a9ae528f5221f2.png
+// @icon64       https://img.imgdb.cn/item/608a4ccdd1a9ae528f5221f2.png
 // @version      0.1
 // @description  HLOJ代码复制按钮
-// @author       szc
+// @author       phylesis
 // @match        10.10.22.16/submission/*
 // @grant        none
 // ==/UserScript==
@@ -67,7 +69,7 @@
 
 	function copy() {
 		let code = get_code();
-		console.log('szc\n\n' + code);
+		console.log('phylesis\n\n' + code);
 		let transfer = document.createElement('textarea');
 		asdpoi.appendChild(transfer);
 		transfer.value = code;
